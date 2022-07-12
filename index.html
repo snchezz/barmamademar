@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>lalola | Carta</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+        <img id="logo" src="img/logo.jpeg" alt="">
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="active" href="index.html">Español</a></li>
+        <li><a href="english.html">English</a></li>
+        <li><a href="francais.html">Français</a></li>
+        <li><a href="ejemplo.html">2.0</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a class="active" href="index.html">Español</a></li>
+        <li><a href="english.html">English</a></li>
+        <li><a href="francais.html">Français</a></li>
+        <li><a href="ejemplo.html">2.0</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <!--Menu arriba-->
+  <div class="container">
+    <div class="section red lighten-1">
+      <div class="row">
+        <div class="col s3 center cubo">
+          <a href="#entrantes" class="blak">
+            <b>🍟 <br> Entrantes</b>
+          </a>
+        </div>
+        <div class="col s3 center cubo">
+          <a href="#principal" class="blak">
+            <b>🍔 <br> Principal</b>
+          </a>
+        </div>
+        <div class="col s3 center cubo">
+          <a href="#postres" class="blak">
+            <b>🍨 <br> Postres</b>
+          </a>
+        </div>
+        <div class="col s3 center cubo">
+          <a href="#bebidas" class="blak">
+            <b>🍾 <br> Bebidas</b>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Entrantes-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="entrantes">🍟 Entrantes</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 center">
+          <img src="img/papas.jpeg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Patatas Fritas</b> <br>
+          <b>2.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/patatasbacon.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Patatas Fritas & Bacon</b> <br>
+          <b>3.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/patatahuevo.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Patatas con Huevo</b> <br>
+          <b>3.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Principal-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="principal">🍔 Principal</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Burguer Ou</b> <br>
+          <b>5.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Hamburguesa Lexus</b> <br>
+          <b>5.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+            <a onclick="M.toast({html: 'Contiene Altramuces'})">
+              <img class="col s3 reponsive-img" src="alergenos/Altramuz.png" alt="">
+            </a>
+            <a onclick="M.toast({html: 'Contiene Crustaceos'})">
+              <img class="col s3 reponsive-img" src="alergenos/Crustaceos.png" alt="">
+            </a>
+            <a onclick="M.toast({html: 'Contiene Frutos Secos'})">
+              <img class="col s3 reponsive-img" src="alergenos/Frutos secos.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Hamburguesa Fiat</b> <br>
+          <b>5.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Hamburguesa Lixu</b> <br>
+          <b>5.50 €</b>
+
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Hamburguesa Lau</b> <br>
+          <b>5.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+            <a onclick="M.toast({html: 'Contiene Altramuces'})">
+              <img class="col s3 reponsive-img" src="alergenos/Altramuz.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/hamburguesa1.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Hamburguesa Belga</b> <br>
+          <b>5.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Gluten'})">
+              <img class="col s3 reponsive-img" src="alergenos/Gluten.png" alt="">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Postres-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="postres">🍨 Postres</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 center">
+          <img src="img/choco.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Helado de Chocolate</b> <br>
+          <b>3.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Cacahuetes'})">
+              <img class="col s3 reponsive-img" src="alergenos/Cacahuetes.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/fresa.jpg" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Helado de Fresa</b> <br>
+          <b>3.50 €</b>
+          <div>
+            <a onclick="M.toast({html: 'Contiene Soja'})">
+              <img class="col s3 reponsive-img" src="alergenos/Soja.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/combinado.jpg " alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Helado Combinado</b> <br>
+          <b>6.50 €</b>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Bebidas-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4 id="bebidas">🍾 Bebidas</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 center">
+          <img src="img/coca-cola.png" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Coca Cola 330ml</b> <br>
+          <b>1.50 €</b>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/fanta.png" alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Fanta Naranja 330ml</b> <br>
+          <b>1.50 €</b>
+        </div>
+
+        <div class="col s12 l4 center">
+          <img src="img/nestea.png " alt="Hamburguesa" class="responsive-img">
+          <b id="entrantes">Nestea 330ml</b> <br>
+          <b>1.50 €</b>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="fixed-action-btn">
+    <a href="#" class="btn-floating btn-large red">
+      <i class="large material-icons">arrow_upward </i>
+    </a>
+  </div>
+
+
+  <footer class="page-footer red lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">lalola</h5>
+          <p class="grey-text text-lighten-4">Un precioso bar en el Portil, rodeado de.. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type s</p>
+
+
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Carta</h5>
+          <ul>
+            <li><a class="white-text" href="index.html">Español</a></li>
+            <li><a class="white-text" href="english.html">English</a></li>
+            <li><a class="white-text" href="francais.html">Francais</a></li>
+            <li><a class="white-text" href="ejemplo.html">2.0</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="black-text" target="_blank" href="https://www.linkedin.com/in/andres-sanchez-vera/">Andrés
+          Sánchez</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
