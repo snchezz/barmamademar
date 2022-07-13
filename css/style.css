@@ -90,10 +90,41 @@ html {
   color: white;
 }
 
-#centrado{
+#centrado {
   height: 200px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
+
+.prueba {
+  color: #fff !important;
+  font-family: Titulo;
+  font-size: xx-large;
+  background-color: #75A1AE !important;
+  border: none !important;
+}
+
+.prueba1 {
+  background-color: #fff !important;
+  color: #000 !important;
+  font-size: large;
+}
+
+@font-face {
+  font-family: Titulo;
+  src: url("/fonts/dDiam.ttf");
+}
+
+#bodyyy {
+  background-color: #75A1AE;
+}
+
+ul {
+   border: none !important;
+}
+
+.titulo1 {
+  font-family: Titulo;
+}
